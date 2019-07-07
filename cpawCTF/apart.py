@@ -1,0 +1,5 @@
+text = "Dcbuarc fa UjedUFG!!! Ujed to e jiaqierrtpq utiubc dtfl eiawpz fdcpfm rcrscio. Dc repeqc e jcirepcpf UFG otfc (lffjo://ufg.ujed.otfc/). Hcic dc lehc oarc ceom UFG xwcoftapo. Tg maw eic e UFG scqtppci, maw olawbz jieuftuc ap flto otfc :) Al! Maw oabhcz flto otrjbc owsoftfwftap utjlci!!! AN... T'bb qthc maw flc Gbeq. Flc Gbeq to flc ftfbc ag flto xwcoftap! YZ Swf tf to e utjlci fcyf faa... aiv Zcuimjf tf epz zcbcfc dltfc ojeuc."
+text1 = "gabbad flto gairef Ujed{Gbeq}"
+mydict = {"U":"C","u":"c","J":"P","j":"p","D":"w","d":"w","E":"A","e":"a","F":"T","f":"t","G":"F","g":"f","B":"L","b":"l","Q":"G","q":"g","L":"H","l":"h","O":"S","o":"s","C":"E","c":"e","T":"I","t":"i","Y":"X","y":"x","M":"Y","m":"y","Z":"D","z":"d","R":"M","r":"m","A":"O","a":"o","I":"R","i":"r","P":"N","p":"n","S":"B","s":"b","X":"Q","x":"q","h":"v","W":"U","w":"u","N":"K","n":"k"} 
+text2 = "anapartment"
+print(text.translate(str.maketrans(mydict))).
