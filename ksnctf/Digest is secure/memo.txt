@@ -1,0 +1,17 @@
+:::::
+
+A1 = c627e19450db746b739f41b64097d449
+nonce = bbKtsfbABAA=5dad3cce7a7dd2c3335c9b400a19d6ad02df299b
+nc = 00000001
+cnonce = 9691c249745d94fc
+pop = auth
+A2 = 31e101310bcd7fae974b921eb148099c
+
+A1 
+A2 = GET:/~q9/flag.html
+
+A1 = ユーザ名 ":" realm ":" パスワード
+A2 = HTTPのメソッド ":" コンテンツのURI
+response = MD5( MD5(A1) ":" nonce ":" nc ":" cnonce ":" qop ":" MD5(A2) )
+
+c627e19450db746b739f41b64097d449:cLmjOKaSBQA=dfa2a7acef57c0e160554db009f8275645c7467c:00000001:b2d3540d20edb322:auth:ffffdd8b8029499600f95a69beb239c2
