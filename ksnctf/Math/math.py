@@ -1,5 +1,6 @@
 import math
 import codecs
+import fractions
 
 # 平文の暗号化に用いる鍵
 e = 65537
@@ -12,7 +13,7 @@ c = 2255495926284926161526322654821253158689111256599710859297122963662143556080
 
 # 最小公倍数を求める関数
 def lcm(x,y):
-    return (x) * (y) // math.gcd(x,y)
+    return (x) * (y) // math.gcd(x, y)
 
 # 拡張ユークリッドの互除法
 def ex_euclid(x, y):
